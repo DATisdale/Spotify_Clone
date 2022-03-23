@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
-import storage from "../../../firebase";
+import storage from "../../../src/firebase";
 import { CircularProgress } from "@mui/material";
 import { toast } from "react-toastify";
 import Button from "../../Button";
